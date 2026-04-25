@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Paella Alger — Authentic Seafood & Paella Experience</title>
+    <meta name="description" content="La Paella Alger offers fresh seafood dishes and authentic paella in a warm and welcoming atmosphere in Hussein Dey, Algeria." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-container">
+        <a href="#hero" class="brand">
+          <span class="brand-mark">LP</span>
+          <span class="brand-name">La Paella Alger</span>
+        </a>
+        <nav>
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content reveal">
+        <p class="eyebrow">Welcome to</p>
+        <h1>La Paella Alger</h1>
+        <p class="tagline">Authentic seafood &amp; paella experience</p>
+        <a
+          class="btn btn-primary"
+          href="https://wa.me/213770008877?text=Hello%20I%20want%20to%20order"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fab fa-whatsapp"></i>
+          Order Now on WhatsApp
+        </a>
+      </div>
+      <a href="#about" class="scroll-down" aria-label="Scroll down">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="reveal">
+          <p class="eyebrow dark">Our Story</p>
+          <h2>A taste of the Mediterranean, in the heart of Alger</h2>
+          <p class="lead">
+            La Paella Alger offers fresh seafood dishes and authentic paella in
+            a warm and welcoming atmosphere.
+          </p>
+          <p>
+            From the sizzling pan to your table, every dish is prepared with
+            the freshest ingredients and a deep respect for tradition. Join us
+            for a meal that brings together the warmth of Algerian hospitality
+            and the soul of Spanish cuisine.
+          </p>
+          <div class="about-features">
+            <div class="feature">
+              <i class="fas fa-fish"></i>
+              <span>Fresh Seafood Daily</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-utensils"></i>
+              <span>Authentic Recipes</span>
+            </div>
+            <div class="feature">
+              <i class="fas fa-heart"></i>
+              <span>Warm Hospitality</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image reveal">
+          <img src="./images/gallery-2.png" alt="Restaurant interior" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="section menu" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow dark">Our Menu</p>
+          <h2>Signature Dishes</h2>
+          <p class="muted">
+            A small selection of our most loved dishes, prepared fresh every
+            day.
+          </p>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <div class="menu-image">
+              <img src="./images/menu-seafood-paella.png" alt="Seafood Paella" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-row">
+                <h3>Seafood Paella</h3>
+                <span class="price">2200 DA</span>
+              </div>
+              <p>
+                Saffron rice, fresh prawns, mussels, calamari, and bell peppers
+                — slow cooked to perfection.
+              </p>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <div class="menu-image">
+              <img src="./images/menu-chicken-paella.png" alt="Chicken Paella" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-row">
+                <h3>Chicken Paella</h3>
+                <span class="price">1800 DA</span>
+              </div>
+              <p>
+                Tender chicken, golden saffron rice, peas and roasted peppers —
+                a comforting Spanish classic.
+              </p>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <div class="menu-image">
+              <img src="./images/menu-grilled-fish.png" alt="Grilled Fish" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-row">
+                <h3>Grilled Fish</h3>
+                <span class="price">1600 DA</span>
+              </div>
+              <p>
+                Fresh catch of the day, grilled with olive oil, lemon and
+                Mediterranean herbs.
+              </p>
+            </div>
+          </article>
+
+          <article class="menu-card reveal">
+            <div class="menu-image">
+              <img src="./images/menu-fresh-juice.png" alt="Fresh Juice" />
+            </div>
+            <div class="menu-body">
+              <div class="menu-row">
+                <h3>Fresh Juice</h3>
+                <span class="price">350 DA</span>
+              </div>
+              <p>
+                Cold-pressed seasonal fruit juice — a refreshing companion to
+                any meal.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow dark">Gallery</p>
+          <h2>A glimpse of the experience</h2>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item reveal"><img src="./images/gallery-1.png" alt="Seafood platter" /></div>
+          <div class="gallery-item reveal"><img src="./images/menu-seafood-paella.png" alt="Seafood paella" /></div>
+          <div class="gallery-item reveal"><img src="./images/gallery-3.png" alt="Paella close-up" /></div>
+          <div class="gallery-item reveal"><img src="./images/gallery-4.png" alt="Mediterranean tapas" /></div>
+          <div class="gallery-item reveal"><img src="./images/gallery-5.png" alt="Grilled octopus" /></div>
+          <div class="gallery-item reveal"><img src="./images/menu-grilled-fish.png" alt="Grilled fish" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow dark">Visit Us</p>
+          <h2>Come say hello</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Address</h4>
+                <p>2 Rue Rahim Kaddour, Hussein Dey 16005, Algeria</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p><a href="tel:+213770008877">+213 770 00 88 77</a></p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-fax"></i>
+              <div>
+                <h4>Fax</h4>
+                <p>+213 770 00 88 77</p>
+              </div>
+            </div>
+            <a
+              class="btn btn-whatsapp"
+              href="https://wa.me/213770008877?text=Hello%20I%20want%20to%20order"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-whatsapp"></i>
+              Chat on WhatsApp
+            </a>
+          </div>
+          <div class="contact-map reveal">
+            <iframe
+              src="https://www.google.com/maps?q=La+paella+alger,+2+Rue+Rahim+Kaddour,+Hussein+Dey+16005&output=embed"
+              width="100%"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              title="La Paella Alger location"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3 class="footer-brand">La Paella Alger</h3>
+          <p class="muted-light">
+            Authentic seafood &amp; paella experience.
+          </p>
+        </div>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a
+            href="https://wa.me/213770008877?text=Hello%20I%20want%20to%20order"
+            target="_blank"
+            rel="noopener"
+            aria-label="WhatsApp"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; <span id="year"></span> La Paella Alger. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating WhatsApp button -->
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/213770008877?text=Hello%20I%20want%20to%20order"
+      target="_blank"
+      rel="noopener"
+      aria-label="Order on WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

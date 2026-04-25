@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "KgDCUMviI6FlInPWIfpqE"
+uri = "file://artifacts/la-paella-alger/public/images/hero.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "i_YJfPSYXWzMWOjNW2jY2"
+uri = "file://artifacts/la-paella-alger/public/images/menu-seafood-paella.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "gh7U0WXUuQFzPah1g0HrN"
+uri = "file://artifacts/la-paella-alger/public/images/menu-chicken-paella.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "29pGwaa-6OyCqD_5gpVBy"
+uri = "file://artifacts/la-paella-alger/public/images/menu-grilled-fish.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "tPjNzNBC3A_H_SU5hqEio"
+uri = "file://artifacts/la-paella-alger/public/images/menu-fresh-juice.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "YHTkmX-dJZs9CcUy2AEwB"
+uri = "file://artifacts/la-paella-alger/public/images/gallery-1.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "DFzTni4yNuYRJVOomfY6A"
+uri = "file://artifacts/la-paella-alger/public/images/gallery-2.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "T_VRNSQRGiZHmY6eYNbTv"
+uri = "file://artifacts/la-paella-alger/public/images/gallery-3.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "xF3rNO6nsWzT4tORN62pK"
+uri = "file://artifacts/la-paella-alger/public/images/gallery-4.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "zPtkwl3vYpBArdSrBH7zM"
+uri = "file://artifacts/la-paella-alger/public/images/gallery-5.png"
+type = "image"
+title = "generated_image"

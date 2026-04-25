@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "La Paella Alger"
+version = "1.0.0"
+id = "artifacts/la-paella-alger"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18553
+
+[services.development]
+run = "pnpm --filter @workspace/la-paella-alger run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/la-paella-alger", "run", "build" ]
+publicDir = "artifacts/la-paella-alger/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18553"
+BASE_PATH = "/"
